@@ -86,6 +86,5 @@ volumes:
   influxdb_data: {}  # Volume for InfluxDB data
 
 networks:
-  monitoring:
-    external:
-      name: monitoring  # Use an external network named 'monitoring'
+   external: true
+   name: monitoring  # Use an external network named 'monitoring'
