@@ -87,4 +87,5 @@ volumes:
 
 networks:
   monitoring:
-    external: true  # Use an external network named 'monitoring'
+	external:
+	  name: monitoring  # Use an external network named 'monitoring'
